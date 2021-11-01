@@ -45,12 +45,12 @@ public class Mensaje implements Serializable {
         this.messageText = messageText;
     }
 
-    public Motorbike getOrtopedic() {
+    public Motorbike getMotorbike() {
         return motorbike;
     }
 
-    public void setOrtopedic(Motorbike ortopedic) {
-        this.motorbike = ortopedic;
+    public void setMotorbike(Motorbike motorbike) {
+        this.motorbike = motorbike;
     }
 
     public Cliente getClient() {

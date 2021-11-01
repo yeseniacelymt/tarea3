@@ -28,10 +28,9 @@ public class WebMotorbike {
     return "Hola Mundo Tutoria";
     }
 
-    
     @Autowired
     private ServiciosMotorbike servicio;
-    @GetMapping("all")
+    @GetMapping("/all")
     public List <Motorbike> getMotorbike(){
         return servicio.getAll();
     }
